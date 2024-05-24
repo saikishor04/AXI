@@ -1,0 +1,27 @@
+.container{
+  margin: 25px;
+  display:flex;
+  flex-direction: column;
+}
+button{
+  width:50px;
+  margin:5px;
+}
+
+.TimeContainer {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+
+}
+
+.TimeItem {
+  padding:10px;
+  border: 1px solid #000;
+}
+
+@media (max-width: 600px) {
+  .TimeContainer {
+    flex-direction:column;
+  }
+}
